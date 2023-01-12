@@ -1,0 +1,24 @@
+.contact{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    font-size:2rem;
+    width:100%;
+    border-radius:0.5rem;
+    padding:1rem;
+    border-color:#fff;
+}
+
+.contact:hover{
+    border-color:#54b3d6;
+}
+.contact > p{
+    padding:0.5rem 0px;
+    color:#fff;
+    transition:.3s;
+}
+
+.contact > p:hover{
+    color:#54b3d6;
+    cursor:pointer;
+}
