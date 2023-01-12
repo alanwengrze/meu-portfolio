@@ -35,7 +35,7 @@ export function Projects(){
                     repos.map((repo)=>(
                         <div key={repo.id} className="card flex flex-col justify-between w-1/4 bg-gradient-to-b from-sky-500 to-indigo-500 p-8 rounded-md shadow-lg max-md:w-full">
                             <h2 className="font-bold">{repo.name}</h2>
-                            <p className="date">{repo.description}</p>
+                            <p className="text-gray-200 text-sm">{repo.description}</p>
                             <div className="flex gap-4  w-full justify-center">
                                 <a href={repo.html_url} target="_blank" rel="noopener noreferrer">Ver no Github</a>
                                 {

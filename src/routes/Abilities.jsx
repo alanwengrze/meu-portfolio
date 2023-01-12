@@ -6,8 +6,8 @@ import './Animation.css'
 
 export function Abilities(){
     return(
-        <section className="h-5/6 max-h-full has-shown max-w-3xl m-auto flex flex-col justify-center">
-            <aside className="flex flex-wrap items-center  w-3/5 m-auto gap-6 max-md:w-full">
+        <section className="h-screen min-h-full has-shown max-w-3xl m-auto flex flex-col justify-center">
+            <aside className=" flex flex-wrap items-center  w-3/5 m-auto gap-6 max-md:w-full">
                 <p>
                     <FaReact />
                 </p>
