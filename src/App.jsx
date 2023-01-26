@@ -11,7 +11,7 @@ import { Footer } from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen max-h-full bg-gradient-to-t from-sky-800 to-blue-900">
+    <div className="min-h-screen max-h-full">
       <Navbar />
       <div className='px-12 py-6 min-h-full'>
         <Outlet />

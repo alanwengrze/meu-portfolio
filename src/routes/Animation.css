@@ -77,17 +77,10 @@
   inherits: false;
 }
 
-.card>div>a{
+/* .card>div>a{
     padding:0.5rem;
     border:2px solid;
-    border-image: conic-gradient(from var(--angle), rgb(129 140 248), rgb(14 165 233)) 1;
+    border-image: conic-gradient(from var(--angle), #201F1F, #50A8E9) 1;
     animation: 5s rotate linear infinite;
     border-radius:10px;
-  }
-
-  .card.contact{
-    padding:0.5rem;
-    border:2px solid;
-    border-image: conic-gradient(from var(--angle), rgb(129 140 248), rgb(14 165 233)) 1;
-    animation: 5s rotate linear infinite;
-  }
+  } */

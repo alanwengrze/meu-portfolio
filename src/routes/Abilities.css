@@ -1,18 +1,17 @@
 aside>p{
     font-size:5rem;
     text-align:center;
-    color:white;
+    color: white;
     transition:.4s;
     padding:1rem;
-    border:2px solid black;
     margin:auto;
-    border-image: 
-    linear-gradient(
-      to bottom, 
-      #075984, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
+
+    background-image: url('../assets/bg-rose.svg');
+    backdrop-filter: brightness(80%);
+    background-size:cover;
+    background-repeat: no-repeat;
     
+    border-radius: 100%;
 }
 aside>p:hover{
     transform:translateX(8px);

@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./assets/bg-green.svg');
+  
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+@media (max-width: 768px){
+  body{
+    background-position:center;
+  }
+}
+

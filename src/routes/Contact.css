@@ -1,24 +1,46 @@
 .contact{
     display:flex;
     align-items:center;
-    gap:1rem;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    width: 250px;
+    height: 250px;
     font-size:2rem;
-    width:100%;
-    border-radius:0.5rem;
     padding:1rem;
-    border-color:#fff;
+    border-radius:100%;
+
+    background-image: url('../assets/bg-rose.svg');
+    backdrop-filter: brightness(80%);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    transition:.4s;
 }
 
-.contact:hover{
-    border-color:#54b3d6;
+ .h2-contact{
+    color: rgb(82 82 91);
 }
+
 .contact > p{
     padding:0.5rem 0px;
-    color:#fff;
+    color: white;
     transition:.3s;
 }
 
 .contact > p:hover{
-    color:#54b3d6;
     cursor:pointer;
+}
+
+.contact > li{
+    list-style: none;
+    color: white;
+}
+
+.contact:hover{
+    transform:translateX(8px);
+    cursor:pointer;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

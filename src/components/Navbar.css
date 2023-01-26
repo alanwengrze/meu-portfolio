@@ -1,8 +1,8 @@
-li {
+/* li {
     background-image: linear-gradient(
       to right,
-      #54b3d6,
-      #54b3d6 50%,
+      #201F1F,
+      #201F1F 50%,
       #fff 50%
     );
     background-size: 200% 100%;
@@ -17,7 +17,7 @@ li {
   
   li:before{
     content: '';
-    background: #54b3d6;
+    background: #201F1F;
     display: block;
     position: absolute;
     bottom: -3px;
@@ -33,4 +33,4 @@ li {
   
   li:hover::before{
     width: 100%;
-  }
+  } */

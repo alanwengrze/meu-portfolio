@@ -12,7 +12,7 @@ export function Navbar(){
                 {/* <h2 className="text-xl font-bold text-white">
                     <Link to={'/'}>{"{alanwengrze:'web-developer'}"}</Link>
                 </h2> */}
-                <ul className={`flex gap-4 text-xl max-md:mt-4 max-sm:text-base font-bold`}>
+                <ul className={`flex gap-4 text-xl max-md:mt-4 max-sm:text-base font-light text-zinc-800`}>
                     <li>
                         <Link to={'/'}>Home</Link>
                     </li>
